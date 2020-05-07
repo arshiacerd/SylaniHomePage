@@ -1,0 +1,209 @@
+p{
+    color:blue;
+}
+*{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+ div.first{
+    background-color: royalblue;
+    color:white;
+    padding: 8px;
+    margin-top: initial;
+    line-height: 30px;
+}
+.para{
+    
+    text-align: center;
+    margin-top: 10px;
+}
+img{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    top:20px; 
+}
+.facebook{
+    left:80px;
+ }
+ .twitter{
+    left:130px;
+ }
+ .insta{
+    left:180px;
+ }
+ .utube{
+    left:230px;
+ }
+ .whatsapp{
+    left:280px;
+ }
+ button{
+     position: absolute;
+     top:20px;
+     width:80px;
+     height:30px;
+     font-size: 12px;
+     color: gray; 
+ }
+ 
+ .UKD{
+     right:250px;
+ }
+ .DN{
+     font-size: 11px;
+     right:150px;
+ }
+ .Results{
+     font-size: 11px;
+     right:50px;
+ }
+ button:hover{
+ cursor: pointer;
+ }
+ nav{
+     background-color: white;
+     padding: 31px;
+     margin-top: initial;
+ 
+     
+ }
+ nav>img{
+    position: absolute;
+    height: 60px;
+    width: 210px;
+    top:75px;  
+    left: 75px;
+}
+nav ul{
+    list-style: none;
+}
+ .Home{
+    position: absolute;
+    width:80px;
+    height:33px;
+    font-size: 13px;   
+    top:90px;
+    right: 695px;
+    border-radius: 95px;
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+    border: white;
+}
+  .dropbtn{
+   
+    position: absolute;
+    width:90px;
+    height:33px;
+    font-size: 13px;   
+    top:90px;
+    /* right: 570px; */
+    border-radius: 95px;
+    color:black;
+    font-weight: bold;
+    border: white;
+    background-color: white;
+}
+#About{
+    right:580px;
+}
+#SylaniServices{
+    right: 430px;
+    width:150px;
+
+}
+#FutureProject{
+    right:280px;
+    width:150px;
+}
+#Media{
+    right:190px;
+}
+#News{
+    right:100px
+}
+#Donation{
+    right: 10px;
+}
+ .dropbtn:hover , nav ul li:hover , .sub-menu-1 ul li:hover, .sub-menu-4 ul li:hover{
+    background-color: blue;
+    
+    
+}
+
+i {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 2px;
+    margin-left:5px;
+  }
+  
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+} 
+
+    .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+      }
+ 
+  .sub-menu-1 ul li a, .sub-menu-2 ul li a, .sub-menu-3 ul li a,  .sub-menu-4 ul li a{
+      text-decoration: none;
+      color: black;
+      width:130px;
+      margin:15px;
+      padding: 15px;
+      font-size: 13px;
+    height: 20px;
+
+
+  } 
+  
+  .sub-menu-1, .sub-menu-2, .sub-menu-3, .sub-menu-4{
+      display: none;
+     
+     
+  }
+  
+ nav ul li:hover  .sub-menu-1, nav ul li:hover  .sub-menu-2, nav ul li:hover  .sub-menu-3, nav ul li:hover  .sub-menu-4{
+      background-color:white;
+      display: block;
+      position: absolute;
+      /* margin-top: 5px; */
+      width:290px;
+      margin-top: 20px;
+      margin-left: 480px;
+    
+      
+  }
+  nav ul li:hover  .sub-menu-2{
+    width:280px;
+   margin-left: 630px;
+  
+  }
+  nav ul li:hover  .sub-menu-1 ul{
+      display: block;
+      margin: 10px;
+    
+     
+  }
+  nav ul li:hover  .sub-menu-3{
+margin-left: 730px;
+  }
+  nav ul li:hover  .sub-menu-4{
+      margin-left: 890px;
+  }
+  
+    nav ul li:hover  .sub-menu-1 ul li,nav ul li:hover .sub-menu-2 ul li, nav ul li:hover .sub-menu-3 ul li, nav ul li:hover .sub-menu-4 ul li{
+       margin: 7px;
+     height: 30px;
+     line-height: 30px;
+     font-size: 16px;
+    
+  }  

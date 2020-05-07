@@ -1,0 +1,717 @@
+*{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+
+div.first{
+    background-color: royalblue;
+    color:white;
+    padding: 8px;
+    margin-top: initial;
+    line-height: 30px;
+}
+.para{
+    
+    text-align: center;
+    margin-top: 10px;
+}
+/* img{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    top:20px; 
+} */
+.facebook{
+   left:80px;
+   position: absolute;
+   height: 25px;
+   width: 25px;
+   top:20px;
+}
+.twitter{
+   left:130px;
+   position: absolute;
+   height: 25px;
+   width: 25px;
+   top:20px;
+}
+.insta{
+   left:180px;
+   position: absolute;
+   height: 25px;
+   width: 25px;
+   top:20px;
+}
+.utube{
+   left:230px;
+   position: absolute;
+   height: 25px;
+   width: 25px;
+   top:20px;
+}
+.whatsapp{
+   left:280px;
+   position: absolute;
+   height: 25px;
+   width: 25px;
+   top:20px;
+}
+button{
+    position: absolute;
+    top:20px;
+    width:80px;
+    height:30px;
+    font-size: 12px;
+    color: gray; 
+}
+
+.UKD{
+    right:250px;
+}
+.DN{
+    font-size: 11px;
+    right:150px;
+}
+.Results{
+    font-size: 11px;
+    right:50px;
+}
+button:hover{
+cursor: pointer;
+}
+nav{
+    background-color: white;
+    padding: 31px;
+    margin-top: initial;
+
+}
+
+
+nav>img{
+    position: absolute;
+    height: 60px;
+    width: 210px;
+    top:75px;  
+    left: 75px;
+}
+
+nav ul{
+    list-style: none;
+}
+ .Home{
+    position: absolute;
+    width:80px;
+    height:33px;
+    font-size: 13px;   
+    top:90px;
+    right: 695px;
+    border-radius: 95px;
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+    border: white;
+}
+  .dropbtn{
+   
+    position: absolute;
+    width:90px;
+    height:33px;
+    font-size: 13px;   
+    top:90px;
+    /* right: 570px; */
+    border-radius: 95px;
+    color:black;
+    font-weight: bold;
+    border: white;
+    background-color: white;
+}
+#About{
+    right:580px;
+}
+#SylaniServices{
+    right: 430px;
+    width:150px;
+
+}
+#FutureProject{
+    right:280px;
+    width:150px;
+}
+#Media{
+    right:190px;
+}
+#News{
+    right:100px
+}
+#Donation{
+    right: 10px;
+}
+ .dropbtn:hover , nav ul li:hover , .sub-menu-1 ul li:hover, .sub-menu-4 ul li:hover{
+    background-color: blue;
+    
+    
+}
+
+i {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 2px;
+    margin-left:5px;
+  }
+  
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+} 
+
+    .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+      }
+ 
+  .sub-menu-1 ul li a, .sub-menu-2 ul li a, .sub-menu-3 ul li a,  .sub-menu-4 ul li a{
+      text-decoration: none;
+      color: black;
+      width:130px;
+      margin:15px;
+      padding: 15px;
+      font-size: 13px;
+    height: 20px;
+
+
+  } 
+  
+  .sub-menu-1, .sub-menu-2, .sub-menu-3, .sub-menu-4{
+      display: none;
+     
+     
+  }
+  
+ nav ul li:hover  .sub-menu-1, nav ul li:hover  .sub-menu-2, nav ul li:hover  .sub-menu-3, nav ul li:hover  .sub-menu-4{
+      background-color:white;
+      display: block;
+      position: absolute;
+      z-index:9999;  
+      /* margin-top: 5px; */
+      width:290px;
+      margin-top: 20px;
+      margin-left: 480px;
+    
+      
+  }
+  nav ul li:hover  .sub-menu-2{
+    width:280px;
+   margin-left: 630px;
+  
+  
+  }
+  nav ul li:hover  .sub-menu-1 ul{
+      display: block;
+      margin: 10px;
+    
+     
+  }
+  nav ul li:hover  .sub-menu-3{
+margin-left: 730px;
+  }
+  nav ul li:hover  .sub-menu-4{
+      margin-left: 890px;
+  }
+  
+    nav ul li:hover  .sub-menu-1 ul li,nav ul li:hover .sub-menu-2 ul li, nav ul li:hover .sub-menu-3 ul li, nav ul li:hover .sub-menu-4 ul li{
+       margin: 7px;
+     height: 30px;
+     line-height: 30px;
+     font-size: 16px;
+    
+  } 
+  marquee{
+      background-color: blue;
+      margin-right: 30px;
+      margin-left: 30px;
+     margin-top: 10px;
+     height: 30px;
+     
+  } 
+  .green{
+      color: chartreuse;
+     
+  }
+  .para{
+  
+color: white;
+  }
+span>a:hover{
+    
+ text-decoration: none;   
+}
+.intro,.fifth>h1{
+    text-align: center;
+
+}
+.blue{
+    color:blue;
+}
+.green{
+    color:green;
+}
+#line> img,.fifth>#line>img,.eight>div>.gallery>#line>img{
+    height:50px;
+    width:50px;
+    
+}
+.fifth{
+    text-align: center;
+}
+#line::before,.fifth>#line::before{
+    content: '';
+    width: 43px;
+    border-bottom: solid 3px green;
+    position: absolute;
+    margin-left:65px;
+    top: 803px;
+    z-index: 1;
+
+}
+.fifth>#line::before{
+   
+top:103px;
+    
+}
+#line::after,.fifth>#line::after{
+    content: '';
+    width: 43px;
+    border-bottom: solid 3px green;
+    position: absolute;
+    left:550px;
+    top: 803px;
+    z-index: 1;
+ 
+}
+.fifth>#line::after{
+    top:103px;
+}
+.paragraph{
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 15px;
+    color: dimgray;
+}
+.fourth{
+    background-color:blue;
+    position: relative;
+    top:90px;
+height: 295px;
+}
+.fourth>img,.fourth>.people>img,.fourth>.hospital>img,.fourth>.educate>img{
+    height:45px;
+    width:45px;
+    position: absolute;
+    top:75px;
+    left:160px;
+
+}
+.fourth>.educate>img
+{
+left:1120px;
+}
+.fourth>.hospital>img{
+    left:800px;
+}
+.fourth>.people>img{
+    left:480px;
+}
+.fourth>p,.fourth>.people>p,.fourth>.hospital>p,.fourth>.educate>p{
+    font-size: 65px;
+    color:white;
+    position: absolute;
+    top:105px;
+    left:89px;
+    font-family: 'Constantia';
+ 
+}
+.fourth>.educate>p{
+    left:1030px;
+}
+.fourth>.hospital>p{
+    left:749px;
+}
+
+.fourth>.people>p{
+    left:429px;
+}
+
+
+.fourth>span,.fourth>.people>span,.fourth>.hospital>span,.fourth>.educate>span{
+    font-size: 16px;
+    position: absolute;
+    top:200px;
+    left:64px;
+    color:white;
+    font-family: 'Bookman Old Style';
+    font-weight: bold;
+
+}
+.fourth>.educate>span{
+    left:1024px;
+}
+.fourth>.hospital>span{
+    left:724px;
+}
+.fourth>.people>span{
+    left:394px;
+}
+.fourth>span.green,.fourth>.people>.green,.fourth>.hospital>.green,.fourth>.educate>.green{
+position: absolute;
+left:239px;
+color: lawngreen;
+font-weight: bold;
+font-size: 20px;
+font-family: 'Bookman Old Style';
+top:195px;
+}
+.fourth>.educate>.green{
+    left:1126px;
+}
+.fourth>.hospital>.green{
+    left:804px;
+}
+
+.fourth>.people>.green{
+    left:555px;
+}
+
+.fifth{
+    
+    position: relative;
+    top:140px;
+height: 230px;
+}
+.shadow-lg{
+    position: relative;
+    top:33px;
+    width:350px;
+    padding: 50px;
+    height:180px;
+}
+.sixth,.seventh{
+    display: flex;
+  flex-direction: row;
+  
+}
+.sixth>div,.seventh>div{
+    margin: 35px;
+    font-family: 'Bookman Old Style';
+    font-size: 23px;
+}
+.sixth>div>img,.seventh>div>img{
+    width: 65px;
+    height:65px;
+    position: absolute;
+    right:137px;
+    top:25px;
+   
+    
+}
+.sixth>div>p,.seventh>div>p{
+        position: absolute;
+    bottom:35px;
+    left:82px;
+    color: blue;
+    font-weight: bold;
+}
+.sixth>div>.welfare{
+    left:119px;
+}
+.sixth>div>.medical{
+    left:124px;
+}
+.seventh{
+position: relative;
+bottom:50px;
+}
+.seventh>div>.ROPLANT{
+    left:120px;
+}
+.seventh>div>.EDUCATION{
+    left:110px;
+}
+.eight>div>.blue,.eight>div>p{
+    color:blue;
+    font-size: 25px;
+    position: absolute;
+    left: 35px;
+    font-weight: bold;
+    top:60px;
+}
+.eight>div>p{
+    left:794px;
+    
+}
+.eight>div{
+    width:100%;
+   height:1000px;
+}
+.eight>div>.HEPATITIS,.eight>div>.HOUSING,.eight>div>.IT,.eight>div>.THARPARKAR{
+    width:350px;
+    height:70px;
+    background-color: rgb(235, 228, 228);
+    position: absolute;
+    top:130px;
+    left:35px;
+    
+}
+.eight>div>.IT,.eight>div>.THARPARKAR{
+    top:220px;
+
+}
+.eight>div>.HOUSING,.eight>div>.THARPARKAR{
+    left:410px;
+}
+.eight>div>.HEPATITIS>img,.eight>div>.HOUSING>img,.eight>div>.IT>img,.eight>div>.THARPARKAR>img{
+    height:35px;
+    width:35px;
+    position: absolute;
+    left:30px;
+    top:13px;
+}
+
+.eight>div>.HEPATITIS>p,.eight>div>.HOUSING>p,.eight>div>.IT>p,.eight>div>.THARPARKAR>p{
+    position: absolute;
+    left:90px;
+    top:20px;
+    font-size: 22px;
+    color: royalblue;
+font-weight: bold; 
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+}
+ .eight>div>div{
+  position: absolute;
+  bottom:1700px;   
+ }
+ .eight>div>#line::before{
+left:715px;
+ }
+ .eight>div>#line::after{
+     left:22px;
+ }
+ .eight>div>marquee{
+background-color: white;
+width:290px;
+    position: absolute;
+    left:765px;
+    top:120px;
+    height:200px;
+
+ }
+ .eight>div>marquee>p{
+     color:dimgray;
+     font-size: 15px;
+ }
+ .eight>div>.gallery>h1{
+   position:absolute;
+     top:1105px;
+   left:450px;
+   clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+ }
+ .eight>div>.gallery>#line>img{
+     top:1161px;
+     left:594px;
+     position: absolute;
+ }
+ .eight>div>.gallery>#line::after{
+     position: absolute;
+     top:1205px;
+     left:545px;
+ }
+ .eight>div>.gallery>#line::before{
+    position: absolute;
+    top:1205px;
+    left:585px;
+ }
+ * {
+    box-sizing: border-box;
+  }
+  
+  .zoom,.zoom1,.zoom3,.zoom4,.zoom2 {
+    padding: 50px;
+    
+    transition: transform .2s;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    position: absolute;
+    top:500px;
+    
+  }
+  .zoom1>img{
+position: absolute;
+left:300px;
+  }
+  .zoom2>img{
+    position: absolute;
+    left:540px;
+          
+  }
+  .zoom3>img{
+    position: absolute;
+    left:780px;
+          
+}
+.zoom4>img{
+    position: absolute;
+    left:50px;
+    top:300px;
+    
+}
+  .zoom>img,.zoom1>img,.zoom2>img,.zoom3>img,.zoom4>img{
+      height: 200px;
+      width: 250px;
+      
+      
+  }
+  .zoom::after,.zoom1::after,.zoom::after,.zoom3::after,.zoom4::after{
+      content: "";
+      clear: both;
+      display: table;
+  }
+  .black{
+      background-color: rgb(48, 46, 46);
+      height:370px;
+      width:100%;
+      position: absolute;
+      top:3400px;
+
+  }
+  .black>ul>li{
+      list-style: none;
+  }
+  .black>p{
+      position: absolute;
+      top:100px;
+      color:#bbb;
+      left:50px;
+      font-size: 16px;
+      
+  }
+  .black>#line::after,.black>#line::before{
+      position: absolute;
+      top:90px;
+      left:500px;
+  }
+  .black>#line::before{
+      left:440px;
+  }
+  
+  .black>.links{
+      left:500px;
+      top:60px;
+      color: white;
+      font-weight: bold;
+  }
+  .black>.address{
+      top:125px;
+  }
+  .black>.no1{
+      top:150px;
+  }
+ .black>.no2{
+     top:150px;
+     left:300px;
+ }
+ .black>.no3{
+     top:175px;
+     
+ }
+ .black>.no4{
+top:200px;
+ }
+ .black>.no5{
+     top:225px;
+ }
+ .black>.no6{
+     top:250px;
+}
+ .black>#i1,.black>#i2,.black>#i3,.black>#i4,.black>#i5,.black>#i6{
+     background-color:rgb(48, 46, 46);
+     top:150px;
+     position: absolute;
+     font-size:18px;
+     color: green;
+     border: none;
+     left:22px;
+ }
+ .black>#i6{
+     top:150px;
+     left:275px;
+     
+ }
+ .black>#i2{
+     top:175px;
+     
+ }
+ .black>#i3{
+top:200px;
+
+ }
+ .black>#i4{
+     top:225px;
+
+}
+.black>#i5{
+     top:250px;
+    
+}
+  .blue1{
+      background-color: rgb(92, 92, 243);
+      height:45px;
+      width: 100%;
+      position: absolute;
+      top:3770px;
+  }
+   
+  .connect{
+      position: absolute;
+      left:800px;
+      top:60px;
+      color:white;
+      font-weight: bold;
+  }
+  .social{
+      position: absolute;
+      top:120px;
+      left:880px;
+      transform: translate(-50%,-50%);
+  }
+  .social>div{
+      margin: opx 10px;
+      width:40px;
+      height: 40px;
+      background: #eee;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 50%;
+      color: #fff;
+  }
+  .social>div:hover{
+      cursor: pointer;
+  }
+ div.fa-facebook,div.fa-twitter,div.fa-instagram,div.fa-youtube{
+background-color: rgb(51, 51, 161);
+  }
+  .blue1>p{
+      position: absolute;
+      font-size: 12px;
+      color: white;
+      top:30%;
+      left:5%;
+  }
